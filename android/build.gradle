@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'package="com.example.imagegallerysaver'
+    namespace = 'com.example.imagegallerysaver'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
